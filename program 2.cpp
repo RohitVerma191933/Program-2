@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
-class xyz
+class AB
 {
 	public:
-	inline long power(int b,int p)
+	inline long power(int x,int y)
 	{
 		long i, res=1;
-		for(i=1;i<=p;i++)
-		res=res*b;
+		for(i=1;i<=y;i++)
+		res=res*x;
 		return res;
 	}
 };
 int main()
 {
-xyz ob;
+AB ob;
 int base,exponent;
 cout<<"ENTER BASE VALUE :";
 cin>>base;
